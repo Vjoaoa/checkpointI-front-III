@@ -4,9 +4,9 @@ function Form(props){
 
 
     function salvarCor(){
-      var regex =   /^(?=.*\d)(?=.*[a-z])(?=.*[A-Z])(?=.*[$*&@#])[0-9a-zA-Z$*&@#]{8,}$/;
+      const regex =   /^[0-9]$/;
 
-      if(props.nome == "" || props.cor == "" || props.nome[0] == " "||regex.exec(props.cor)){
+      if(props.nome == "" || props.cor == "" || props.nome[0] == " "||props.nome.length < 3||props.cor.length < 6||regex.exec(props.cor)){
         alert("Por favor, verifique os dados inseridos no formulário");
       }else{
   
@@ -15,7 +15,7 @@ function Form(props){
           cor:props.cor,
         } ])
       }
-  
+
     }
   
   
