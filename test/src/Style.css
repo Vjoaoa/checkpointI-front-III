@@ -1,0 +1,75 @@
+
+body{
+    height: 100%;
+    width: 100%;
+    background-image: url(./assets/ViPW.gif);
+    background-size: cover;
+    background-position: center bottom;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.card-css{
+    text-align: center;
+    width: 100%;
+    height: 170px;
+    padding: auto;
+    font-family: 'open sans', sans-serif;
+    border-radius: 0px;
+    border-radius: 20px;
+}
+h1{
+    font-family: 'open sans', sans-serif;
+	font:oblique;
+}
+.formCSS{
+    font-family: 'open sans', sans-serif;
+    background: rgba(0, 0, 0, 0.904);
+    text-align: center;
+    color: rgb(0, 0, 0);
+	height: 260px;
+	border-radius: 20px;
+}
+.input1{
+    background-color: rgba(171, 165, 165, 0.19);
+    width: 94%;
+	margin: 0 auto;
+	padding: 20px;
+	border: none;
+	margin-bottom: 10px;
+	border-radius: 50px;
+    font-family: 'open sans', sans-serif;
+}
+button{
+    background-color: #1d1b1b;
+    border: none;
+    color: rgb(255, 255, 255);
+    width: 200px;
+    padding: 20px 20px;
+    text-decoration: none;
+    margin: 4px 2px;
+    cursor: pointer;
+    font-family: 'open sans', sans-serif;
+  }
+.test{
+    font-family: 'open sans', sans-serif;
+	border: none;
+}
+input {
+    font-family: 'open sans', sans-serif;
+	position: relative;
+    float: left;
+    border: none;
+    padding: 10px;
+    width: 300px;
+}
+.tsxt{
+    position: absolute;
+    width: 590px;
+    height: 258px;
+    left: 0px;
+    top: 527px;
+    border: 4px solid rgba(255, 255, 255, 0.2);
+    border-radius: 12px;
+};
+
